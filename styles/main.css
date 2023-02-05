@@ -25,7 +25,7 @@ body {
   left: 0;
   position: absolute;
   right: 0;
-  op: 20vh;
+  top: 20vh;
 }
 
 .one {
@@ -42,6 +42,7 @@ body {
 }
 
 .four .text-box {
+  border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
   padding: 10px;
@@ -63,7 +64,7 @@ body {
   border-radius: 3px;
   bottom: -50px;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   position: absolute;
   right: 5px;
 }
@@ -85,15 +86,14 @@ body {
   font-size: 4rem;
 }
 
-.idea-5 span,
-.idea-6 span,
-.wish-hbd span {
+.idea-5 span, .idea-6 span, .wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span {
+.idea-6 span{
   font-size: 15rem;
 }
+
 
 .six {
   position: relative;
@@ -133,8 +133,7 @@ body {
   left: 30%;
 }
 
-.seven,
-.eight {
+.seven, .eight {
   height: 100vh;
   position: fixed;
   top: 0;
